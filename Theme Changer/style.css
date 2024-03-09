@@ -1,0 +1,35 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.theme{
+    height: 100%;
+    width: 70%;
+    background-image: url(https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/change-theme-light-bg.png);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: darkgreen;
+    font-size: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    gap: 10px;
+}
+
+.userinput{
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    border-radius: 10px;
+}
